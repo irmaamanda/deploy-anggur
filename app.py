@@ -101,7 +101,7 @@ def apiDeteksi():
 			})
 
 
-ngrok.set_auth_token("2c1Qq8hBNlsDR3CmiNxru5xWbhk_3coVELvbeR5wFPM1zB9Eh")
+ngrok.set_auth_token("2frTECn1ymxgzwEWKPET2THxPfb_6A4e7cjmjvVVtULy3Ktik")
 port_no = 5000
 public_url =  ngrok.connect(port_no).public_url
 app.run(port=port_no)
